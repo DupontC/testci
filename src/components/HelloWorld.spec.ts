@@ -4,6 +4,6 @@ import {mount} from "@vue/test-utils";
 
 test('init hello world component', ()=>  {
     const wrapper = mount(HelloWorld);
-    expect(wrapper.exists()).toBe(true);
+    expect(wrapper.exists()).toBe(false);
     expect(wrapper.text()).contain("Vite + Vue");
 })
